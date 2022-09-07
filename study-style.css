@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#bg-header{
+    background-image: url(img/study.jpg);
+    height: 110vh;
+}
+#p-bg{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#p2{
+    margin-top: 20%;
+    font-size: 10vh;
+}
+
+
+#bg-section{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    background-color: #C89650;
+}
+.check{
+    margin-left: 10px;
+    background-color: white;
+    height: 45vh;
+    margin-top: -60px;
+    padding: 20px;
+    width: 40vh;
+    border-radius: 10px;
+}
+.p-style{
+    font-size: 4vh;
+    font-weight: bold;
+    font-style: italic;
+    color: #C89650;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.p-conteudo{
+    text-align: justify;
+    font-weight: bold;
+    padding: 10px;
+    color: #C89650;
+}
+
+#section-bg{
+    background-image: url(img/wp10523160-study-pc-wallpapers.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.button{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-shadow: 3px 3px 0 1px #C89650;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-weight: bold;
+    padding: 50px 85px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 5vh;
+}
+.button:active{
+    box-shadow: 3px 3px 0 1px #8D6745, inset 3px 3px 3px;
+    transform: translate(3px, 3px);
+    font-style: italic;
+}
+#p-section{
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    font-size: 3.5vh;
+    background-color: black;
+    font-weight: bold;
+}
